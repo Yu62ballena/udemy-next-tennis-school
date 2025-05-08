@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lightGray: #d3d3d3;
+  --color-gray: #778899;
+  --color-darkGray: #464d53;
+  --color-darkdarkGray: #363d42;
+  --color-pink: #fa8072;
+}
+
+/* 
+  --color以外にも--fontとか--textとかいろいろある。
+  https://tailwindcss.com/docs/themeに載ってる
+  
+  --color-customred: #ff0000;
+  と設定したカスタムカラーは
+  className="text-customred"
+  className="bg-customred"
+  のように呼び出せる
+*/
+
+main {
+  background-image: url("/assets/bgimageglobalscss.png");
+  background-color: #483d8b;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  transform: translate3d(0, 0, 0);
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
