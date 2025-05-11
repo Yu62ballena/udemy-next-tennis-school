@@ -32,3 +32,23 @@ main {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.stroke-text {
+  color: transparent;
+  font-family: M_PLUS_2, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.normal-case {
+  text-transform: none;
+}
+
+/* 背景のブラー処理 */
+.blur {
+  background: #ff8c00;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -20;
+}
