@@ -10,7 +10,7 @@ export const programsData = [
     title: "健康的なエクササイズ",
     details:
       "テニスは全身の筋力と柔軟性を向上させる効果があり有酸素運動も促進。エクササイズにはぴったりです",
-    link: "",
+    link: "#",
   },
   {
     id: 2,
