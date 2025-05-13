@@ -11,9 +11,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="ja">
-      <body className={`${m_PLUS_2.className} antialiased`}>{children}</body>
+      <body
+        className={`${m_PLUS_2.className} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

@@ -66,7 +66,7 @@ function Hero() {
           <div className="flex flex-col">
             <span className="text-white text-3xl max-md:text-xl">
               <CountUp
-                start={80}
+                start={100}
                 end={140}
                 duration={3}
               />
@@ -77,7 +77,7 @@ function Hero() {
           <div>
             <span className="text-white text-3xl max-md:text-xl">
               <CountUp
-                start={4000}
+                start={5000}
                 end={5978}
                 duration={3}
               />
@@ -88,7 +88,7 @@ function Hero() {
           <div>
             <span className="text-white text-3xl max-md:text-xl">
               <CountUp
-                start={0}
+                start={40}
                 end={62}
                 duration={3}
               />
